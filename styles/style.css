@@ -4,9 +4,10 @@
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    
+
     padding: 25px 35px 25px 35px;
 
+    background: color(red green blue) #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 
 }
@@ -22,37 +23,61 @@
     display: block;
     width: 100%;
     height: auto;
-   
+    counter-reset: #070200, #07021100;
 
 }
 
 .image-text {
-    position: absolute;
-    top: 150px;
-    right: 344px;
-    left: 344px;
-    bottom: 177px;
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-weight: 400;
+ position: absolute;
 
-}
-
-.image-descrition {
-    position: relative;
-    top: 233px;
-    right: 344px;
-    left: 344px;
-    bottom: 177px;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
     width: 632px;
     height: 190px;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.new-year {
+    position: absolute;
+    top: 230px;
+    right: 344px;
+    left: 344px;
+    bottom: 177px;
+    text-align: center;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    font-size: 65px;
+    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+
+
+.percent {
+
+    padding-inline: 30px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 383px;
+    font-color: red;
+
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
 }
