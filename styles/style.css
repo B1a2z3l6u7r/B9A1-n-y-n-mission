@@ -56,8 +56,6 @@
 
 }
 
-
-
 .percent {
     position: absolute;
     top: 80%;
@@ -70,10 +68,6 @@
     font-size: 88px;
     font-weight: 700;
 }
-
-
-
-
 
 .holiday {
     position: absolute;
@@ -102,21 +96,44 @@
 
 }
 
+
 .image {
     padding: 47% 40% 40% 90%;
 
     justify-content: center;
-
     width: 802.9px;
     height: 500px;
+
+
     flex-shrink: 0;
+
+} 
+
+.banner-section{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-color: red;
+    border: 2px solid blue;
+    min-height: 600px;
+}
+
+.Vectorrr-image{
+border: 2px solid green;
+}
+
+.image-group{
 
 }
 
-.welcome-image {
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    margin: auto;
+.welcome-mid{
+
 }
+
+.welcom-para{
+
+}
+
+.welcom-button
+
+
+
