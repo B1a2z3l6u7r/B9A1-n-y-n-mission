@@ -1,83 +1,122 @@
 /* Assaiment 1*/
 
-.header {
-    width: 1320px;
-    height: 600px;
+
+.image-container {
+    position: relative display: initial;
     border-radius: 16px;
 
     padding: 25px 35px 25px 35px;
 
     background: color(red green blue) #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
-
-}
-
-.image-container {
-    position: relative display: initial;
-
-
-
 }
 
 .image-container img {
     display: block;
-    width: 100%;
-    height: auto;
+
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
     counter-reset: #070200, #07021100;
 
 }
 
-.image-text {
- position: absolute;
-
-   top: 40%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-    width: 632px;
-    height: 190px;
+.happy-new-year {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
-    font-size: 28px;
+    width: 259px;
+    height: 40px;
+    font-size: 32px;
     font-weight: 400;
 
 }
 
-.new-year {
+.new-year-party {
     position: absolute;
-    top: 230px;
-    right: 344px;
-    left: 344px;
-    bottom: 177px;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 632px;
+    height: 190px;
+    color: #FFF;
     text-align: center;
-    font-family: Merriweather;
-    color: #FFFFFF;
-    font-size: 65px;
-    font-style: normal;
+    font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    /* 131.944% */
+
+}
+
+.percent-content {
+    width: 600px;
+    height: 850px;
+
 }
 
 
 
 .percent {
-
-    padding-inline: 30px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 383px;
+    height: 107px;
     color: #F00;
     text-align: center;
-    font-family: Inter;
     font-size: 88px;
-    font-weight: 383px;
-    font-color: red;
+    font-weight: 700;
+}
+
+
+
+
+
+.holiday {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 483px;
+    height: 107px;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 650;
 
 }
 
-.holiday {
-    color: #F00;
+.all-categories {
+    position: absolute;
+    width: 550px;
+    height: 48%;
+    color: #070211;
     text-align: center;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 58px;
+    font-weight: 700;
 
+    padding: 10% 40% 40% 36%;
+
+}
+
+.image {
+    padding: 47% 40% 40% 90%;
+
+    justify-content: center;
+
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+
+.welcome-image {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: auto;
 }
